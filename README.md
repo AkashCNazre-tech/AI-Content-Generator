@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI Content Generation Platform
 
 ## 🚀 Quick Start (3 Steps)
@@ -109,6 +108,3 @@ Press `Ctrl + C`
 ---
 
 Made with ❤️ using FastAPI + OpenAI
-=======
-# AI---Content-Generater
->>>>>>> 6f51c6b4032d92fd18075a8a8c632ff1eb19b70f
