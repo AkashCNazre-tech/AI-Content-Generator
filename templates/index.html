@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">
+            Create <span class="gradient-text">Amazing Content</span><br>
+            with AI Power
+        </h1>
+        <p class="hero-subtitle">
+            Generate ads, images, blog posts, and social media content in seconds.
+            Powered by cutting-edge AI technology.
+        </p>
+        <div class="hero-cta">
+            <a href="/dashboard" class="btn btn-primary btn-lg">
+                Start Creating
+                <span class="btn-icon">→</span>
+            </a>
+            <a href="/history" class="btn btn-secondary btn-lg">
+                View History
+            </a>
+        </div>
+    </div>
+
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">📝</div>
+            <h3>Ad Copy</h3>
+            <p>Generate compelling marketing copy that converts</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>AI Images</h3>
+            <p>Create stunning visuals with DALL-E</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📰</div>
+            <h3>Blog Posts</h3>
+            <p>Write SEO-optimized articles instantly</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Social Media</h3>
+            <p>Craft perfect posts for any platform</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

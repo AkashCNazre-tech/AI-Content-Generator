@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}History - AI Content Platform{% endblock %}
+
+{% block content %}
+<div class="history-container">
+    <div class="history-header">
+        <h1>Content History</h1>
+        <div class="history-filters">
+            <select id="filter-type">
+                <option value="">All Types</option>
+                <option value="ad">Ad Copy</option>
+                <option value="image">Images</option>
+                <option value="blog">Blog Posts</option>
+                <option value="social">Social Media</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="history-list" class="history-list">
+        <div class="loading">Loading history...</div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="/static/js/history.js"></script>
+{% endblock %}
